@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int anoN=0,anoD=0, idade;
+    scanf ("%d", &anoN);
+    idade= 2025-anoN;
+    anoD=2025-(idade*2);
+    printf("%d", anoD);
+
+
+}
